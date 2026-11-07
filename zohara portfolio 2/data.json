@@ -1,0 +1,72 @@
+{
+  "personal": {
+    "name": "Bibi Zohara",
+    "age": 17,
+    "title": "BCA 1st Year Student & Aspiring Web Developer",
+    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&q=80",
+    "introduction": "Hello! I am Bibi Zohara, a 17-year-old BCA 1st-year student passionate about modern web technologies, programming logic, and crafting clean, interactive user interfaces.",
+    "email": "bibi.zohara@gmail.com",
+    "phone": "+91 98765 43210",
+    "resumeLink": "#"
+  },
+  "about": {
+    "description": "I am a 17-year-old student currently pursuing my Bachelor of Computer Applications (BCA) degree. My passion lies in understanding how software and web applications work behind the scenes. From writing my first lines of HTML to exploring object-oriented programming in C++, I am constantly dedicated to expanding my technical skill set I have many more skills in other things as well."
+  },
+  "skills": [
+    { "name": "HTML5", "level": "Advanced", "badge": "bg-danger" },
+    { "name": "CSS3", "level": "Intermediate", "badge": "bg-primary" },
+    { "name": "JavaScript", "level": "Intermediate", "badge": "bg-warning text-dark" },
+    { "name": "Bootstrap 5", "level": "Intermediate", "badge": "bg-info text-dark" },
+    { "name": "C Language", "level": "Intermediate", "badge": "bg-secondary" },
+    { "name": "C++", "level": "Basics", "badge": "bg-dark" }
+  ],
+  "projects": [
+    {
+      "name": "ShopZone E-Commerce",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500&q=80",
+      "description": "A modern responsive e-commerce web storefront built with HTML, CSS, JavaScript, and dynamic Fetch API JSON data loading.",
+      "technologies": "HTML5, CSS3, JS, Fetch API",
+      "link": "#"
+    },
+    {
+      "name": "Student Marks & GPA Calculator",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&q=80",
+      "description": "A functional JavaScript web application that inputs semester subject scores and calculates overall percentages and GPA.",
+      "technologies": "HTML, CSS, JavaScript",
+      "link": "#"
+    },
+    {
+      "name": "Library Record Management System",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=500&q=80",
+      "description": "A console application created using C++ and file structures to record and manage college library book inventories.",
+      "technologies": "C++, File Handling",
+      "link": "#"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "pc jabin science college",
+      "semester": "Semester 1",
+      "year": "2026 - Present",
+      "details": "1st Year undergraduate student studying Computer Fundamentals, C Programming, Logic Development, and Web Technologies."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Responsive Web Design Certification",
+      "issuer": "freeCodeCamp",
+      "year": "2026"
+    },
+    {
+      "title": "C Programming Fundamentals",
+      "issuer": "Coursera",
+      "year": "2026"
+    }
+  ],
+  "socials": {
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com"
+  }
+}

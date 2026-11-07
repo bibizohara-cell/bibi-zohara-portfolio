@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+}
+
+/* Custom Card Hover Effects */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Skill Badges styling */
+.skill-card {
+  border-left: 4px solid #0d6efd;
+}
+
+/* Hero Avatar Frame */
+#hero-img {
+  border: 4px solid #0d6efd;
+  background-color: #ffffff;
+}
