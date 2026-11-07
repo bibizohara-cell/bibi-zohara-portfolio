@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 30-Day Create - Unleash Your Creativity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">30-Day <span>Create</span></div>
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#challenges">Daily Prompts</a>
+      <a href="#tracker">Progress Tracker</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>30 Days. 30 Prompts. Infinite Possibilities.</h1>
+      <p>Build a daily creative habit in design, coding, writing, and video creation.</p>
+      <a href="#challenges" class="btn">Explore Challenges</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>How It Works</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>1. Pick a Prompt</h3>
+        <p>Unlock a new creative challenge every day across various skill paths.</p>
+      </div>
+      <div class="feature-card">
+        <h3>2. Build & Create</h3>
+        <p>Spend 30-60 minutes crafting your project using your favorite tools.</p>
+      </div>
+      <div class="feature-card">
+        <h3>3. Track Progress</h3>
+        <p>Mark daily tasks complete and build an unbroken creation streak.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Daily Challenges Section -->
+  <section class="challenges-section" id="challenges">
+    <h2>Daily Creative Prompts</h2>
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterPrompts('All')">All Prompts</button>
+      <button class="filter-btn" onclick="filterPrompts('Design')">Design</button>
+      <button class="filter-btn" onclick="filterPrompts('Coding')">Coding</button>
+      <button class="filter-btn" onclick="filterPrompts('Writing')">Writing</button>
+    </div>
+    <div class="prompts-grid" id="prompts-grid">
+      <!-- Dynamic Challenge Cards Will Be Rendered Here -->
+    </div>
+  </section>
+
+  <!-- Tracker Section -->
+  <section class="tracker-section" id="tracker">
+    <h2>Your Challenge Progress</h2>
+    <div class="tracker-box">
+      <p>Completed Days: <span id="completed-count">0</span> / 30</p>
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <button class="btn btn-secondary" onclick="resetProgress()">Reset Progress</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 The 30-Day Create. Crafting digital habits daily.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

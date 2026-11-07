@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "day": 1,
+    "category": "Design",
+    "title": "Minimalist Hero Section",
+    "description": "Design a clean landing page hero section using only 2 colors and modern typography.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&q=80"
+  },
+  {
+    "id": 2,
+    "day": 2,
+    "category": "Coding",
+    "title": "Interactive Counter App",
+    "description": "Build a simple increment and decrement counter using HTML, CSS, and JavaScript.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80"
+  },
+  {
+    "id": 3,
+    "day": 3,
+    "category": "Writing",
+    "title": "100-Word Micro Fiction",
+    "description": "Write a complete storytelling scene wrapped up in precisely 100 words.",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500&q=80"
+  },
+  {
+    "id": 4,
+    "day": 4,
+    "category": "Design",
+    "title": "Mobile App Icon Set",
+    "description": "Create 4 cohesive vector app icons for a productivity application.",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80"
+  },
+  {
+    "id": 5,
+    "day": 5,
+    "category": "Coding",
+    "title": "Dynamic FAQ Accordion",
+    "description": "Create an expandable visual FAQ component using Vanilla JavaScript click events.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80"
+  },
+  {
+    "id": 6,
+    "day": 6,
+    "category": "Writing",
+    "title": "Technical Blog Intro",
+    "description": "Draft an engaging headline and intro section for a modern developer tutorial.",
+    "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&q=80"
+  }
+]
